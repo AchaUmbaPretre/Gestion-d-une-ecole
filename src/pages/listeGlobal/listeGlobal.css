@@ -1,0 +1,85 @@
+.container-ListeGlob{
+    display: flex;
+}
+.liste-global{
+    flex:4;
+    padding: 20px;
+    background: #f2f2f2;
+}
+.liste-global-h1{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.liste-global-container{
+    background: #FFF;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.151);
+}
+.liste-global-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.liste-global-input{
+    width: 250px;
+    padding: 7px 10px;
+    border: none;
+    background: #f2f2f2;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.151);
+}
+.liste-global-input:focus{
+    border: 1px solid rgba(69, 175, 245, 0.445);
+}
+.liste-global-link{
+    text-decoration: none;
+    font-size: 13px;
+    padding: 8px 15px;
+    background: red;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.liste-global-tr{
+    background: rgba(82, 182, 248, 0.87);
+}
+.liste-global-th{
+    color: #fff;
+}
+td,th{
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.568);
+}
+.liste-global-delete{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.icon-edit{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: chartreuse;
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+.icon-delete{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}

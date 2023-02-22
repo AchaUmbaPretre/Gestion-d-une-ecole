@@ -1,0 +1,50 @@
+.featureItemSous{
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    column-gap: 10px;
+}
+.featureItemSousRow{
+    flex: 1;
+    background:#fff;
+    position: relative;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.089);
+}
+.rowh4{
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.568);
+    font-size: 15px;
+}
+.featureHr{
+    height: 1px;
+    background: rgba(0, 0, 0, 0.151);
+}
+
+.containerTable{
+    padding: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.featureTd, .featureTh{
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    padding: 5px 15px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.568);
+}
+.featureColor{
+    background: rgba(153, 205, 50, 0.397);
+}
+.featureTh{
+    background: brown;
+    color: #fff;
+}
+.classeTd{
+    padding-right: 100px;
+}

@@ -1,0 +1,77 @@
+.featureTitle{
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: block;
+    color: rgba(0, 0, 0, 0.692);
+ }
+ .containerRow{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     gap: 10px;
+ }
+ .row{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 225px;
+    height: 60px;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.089);
+ }
+ .iconRow{
+   padding: 10px 0px 10px 10px;
+   background: rgba(255, 0, 0, 0.74);
+   width: 40px;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   opacity: 2;
+ }
+ .iconRow i{
+     font-size: 30px;
+     color: #FFF;
+ }
+ .rowTxt{
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+ }
+ .red{
+     background: rgba(255, 0, 0, 0.596);
+ }
+ .bleu{
+     background: rgba(0, 0, 139, 0.596);
+ }
+ .yellow{
+     background: rgba(153, 205, 50, 0.589);
+ }
+ .orange{
+     background: rgba(255, 99, 71, 0.596);
+ }
+ .violet{
+     background: rgba(238, 130, 238, 0.589);
+ }
+ .bleufort{
+     background: rgba(65, 105, 225, 0.596);
+ }
+ .gris{
+     color:black;
+     background: rgba(169, 169, 169, 0.397);
+ }
+ .gris span{
+    color:black;
+}
+ .noir{
+     background: rgba(0, 0, 0, 0.808);
+ }
+ .rowTitle{
+    font-size: 10px;
+    color:#fff;
+ }
+ .rowNum{
+     font-size: 18px;
+     color:#fff;
+     font-weight: 700;
+ }

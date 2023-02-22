@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+}
+.features{
+    flex:4;
+    background: red;
+}
+li{
+    list-style: none;
+}
